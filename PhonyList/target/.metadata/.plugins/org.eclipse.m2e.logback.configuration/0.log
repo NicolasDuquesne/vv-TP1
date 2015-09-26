@@ -1,0 +1,9 @@
+2015-09-26 16:08:55,568 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: istic:PhonyList:1 @ /home/nduquesne/ISTIC/Cours/VV/vv-TP1/Workspace/PhonyList/target/classes/META-INF/maven/istic/PhonyList/pom.xml.
+2015-09-26 16:08:56,089 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhonyList/src/main/java
+2015-09-26 16:08:56,090 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhonyList/src/test/java
+2015-09-26 16:08:57,090 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2015-09-26 16:08:57,574 [Worker-13] ERROR o.e.m.i.d.MavenDiscoveryService - Status ERROR: org.eclipse.equinox.p2.discovery code=0 Failed to discover all connectors. null children=[Status ERROR: org.eclipse.equinox.p2.discovery code=0 M2ERemoteBundleDiscoveryStrategy failed with an error org.eclipse.core.runtime.CoreException: IO failure: cannot load discovery directory]
+2015-09-26 16:08:58,041 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-26 16:08:58,062 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/Workspace/PhonyList/target/classes/META-INF/maven/istic/PhonyList/src/main/resources
+2015-09-26 16:08:58,064 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-26 16:08:58,065 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/Workspace/PhonyList/target/classes/META-INF/maven/istic/PhonyList/src/test/resources

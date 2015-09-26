@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PhonyList-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/PhonyList-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
