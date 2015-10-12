@@ -82,21 +82,21 @@ public class PhonyList&lt;E&gt; {
      * @return {@code true} if the specified object is equal to this list
      */
     public boolean equals(Object o) {
-<span class="pc bpc" id="L85" title="1 of 2 branches missed.">        if (o == this)</span>
-<span class="nc" id="L86">            return true;</span>
-<span class="pc bpc" id="L87" title="1 of 2 branches missed.">        if (!(o instanceof PhonyList))</span>
-<span class="nc" id="L88">            return false;</span>
+<span class="fc bfc" id="L85" title="All 2 branches covered.">        if (o == this)</span>
+<span class="fc" id="L86">            return true;</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">        if (!(o instanceof PhonyList))</span>
+<span class="fc" id="L88">            return false;</span>
 
 <span class="fc" id="L90">        PhonyList list2 = (PhonyList) o;</span>
 
-<span class="pc bpc" id="L92" title="1 of 2 branches missed.">        if (this.size() != list2.size())</span>
-<span class="nc" id="L93">            return false;</span>
+<span class="fc bfc" id="L92" title="All 2 branches covered.">        if (this.size() != list2.size())</span>
+<span class="fc" id="L93">            return false;</span>
 
-<span class="pc bpc" id="L95" title="1 of 2 branches missed.">        for (int i = 0; i &lt; this.size(); i++) {</span>
-<span class="nc" id="L96">            Object o1 = this.get(i);</span>
-<span class="nc" id="L97">            Object o2 = list2.get(i);</span>
-<span class="nc bnc" id="L98" title="All 6 branches missed.">            if (!(o1 == null ? o2 == null : o1.equals(o2)))</span>
-<span class="nc" id="L99">                return false;</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">        for (int i = 0; i &lt; this.size(); i++) {</span>
+<span class="fc" id="L96">            Object o1 = this.get(i);</span>
+<span class="fc" id="L97">            Object o2 = list2.get(i);</span>
+<span class="pc bpc" id="L98" title="3 of 6 branches missed.">            if (!(o1 == null ? o2 == null : o1.equals(o2)))</span>
+<span class="fc" id="L99">                return false;</span>
         }
 
 <span class="fc" id="L102">        return true;</span>
@@ -262,20 +262,20 @@ public class PhonyList&lt;E&gt; {
      * @return &lt;tt&gt;true&lt;/tt&gt; if this list contained the specified element
      */
     public boolean remove(Object o) {
-<span class="pc bpc" id="L265" title="1 of 2 branches missed.">        if (o == null) {</span>
-<span class="nc bnc" id="L266" title="All 2 branches missed.">            for (int index = 0; index &lt; size; index++)</span>
-<span class="nc bnc" id="L267" title="All 2 branches missed.">                if (elementData[index] != null) {</span>
-<span class="nc" id="L268">                    fastRemove(index);</span>
-<span class="nc" id="L269">                    return true;</span>
+<span class="fc bfc" id="L265" title="All 2 branches covered.">        if (o == null) {</span>
+<span class="pc bfc" id="L266" title="All 2 branches covered.">            for (int index = 0; index &lt; size; index++)</span>
+<span class="pc bpc" id="L267" title="1 of 2 branches missed.">                if (elementData[index] != null) {</span>
+<span class="fc" id="L268">                    fastRemove(index);</span>
+<span class="fc" id="L269">                    return true;</span>
                 }
-<span class="nc" id="L271">        } else {</span>
-<span class="pc bpc" id="L272" title="1 of 2 branches missed.">            for (int index = 0; index &lt; size; index++)</span>
-<span class="pc bpc" id="L273" title="1 of 2 branches missed.">                if (o.equals(elementData[index])) {</span>
+<span class="fc" id="L271">        } else {</span>
+<span class="fc bfc" id="L272" title="All 2 branches covered.">            for (int index = 0; index &lt; size; index++)</span>
+<span class="fc bfc" id="L273" title="All 2 branches covered.">                if (o.equals(elementData[index])) {</span>
 <span class="fc" id="L274">                    fastRemove(index);</span>
 <span class="fc" id="L275">                    return true;</span>
                 }
         }
-<span class="nc" id="L278">        return false;</span>
+<span class="fc" id="L278">        return false;</span>
     }
 
     /*
@@ -284,9 +284,9 @@ public class PhonyList&lt;E&gt; {
      */
     private void fastRemove(int index) {
 <span class="fc" id="L286">        int numMoved = size - index - 1;</span>
-<span class="pc bpc" id="L287" title="1 of 2 branches missed.">        if (numMoved &gt; 0)</span>
-<span class="nc" id="L288">            System.arraycopy(elementData, index + 1, elementData, index,</span>
-<span class="nc" id="L289">                    numMoved);</span>
+<span class="fc bfc" id="L287" title="All 2 branches covered.">        if (numMoved &gt; 0)</span>
+<span class="fc" id="L288">            System.arraycopy(elementData, index + 1, elementData, index,</span>
+<span class="fc" id="L289">                    numMoved);</span>
 <span class="fc" id="L290">        elementData[--size] = null; // clear to let GC do its work</span>
 <span class="fc" id="L291">    }</span>
 

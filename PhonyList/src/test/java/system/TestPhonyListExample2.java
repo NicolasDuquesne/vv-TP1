@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class TestPhonyListExample2 {
 
-	/*
+	/**
 	 * Helper method to create lists.
 	 */
 	private PhonyList<Integer> list(Integer... content) {
@@ -17,7 +17,7 @@ public class TestPhonyListExample2 {
 		return list;
 	}
 
-	/*
+	/**
 	 * Helper method to create a big list [1,2,3,...,10000]
 	 */
 	private PhonyList<Integer> thousandElementsList() {
@@ -28,16 +28,33 @@ public class TestPhonyListExample2 {
 		return thousandElementsList;
 	}
 	
+	/**
+	 * Test method equals().
+	 * Creating multiple lists to test different scenarios. 
+	 */
 	@Test
 	public void equalsTest(){
-		PhonyList<Integer> list1 = list();
-		Object o = new Object();
+		PhonyList<Integer> listEmpty1 = list();
+		String str = new String();
+		PhonyList<Integer> list1 = list(44, 57, 26);
+		PhonyList<Integer> list2 = list(32, 89, 1, 6);
+		PhonyList<Integer> list3 = list(45, 57, 26);
+		PhonyList<Integer> list4 = list(44, 57, 26);
 		
-		
+		//test of equality with itself
+		assertTrue(listEmpty1.equals(listEmpty1));
+		//test of equality between two different objects
+		assertFalse(listEmpty1.equals(str));
+		//test of equality between two PhonyList of different size
+		assertFalse(list1.equals(list2));
+		//test of equality between two PhonyList of same size but with different elements
+		assertFalse(list1.equals(list3));
+		//test of equality between two identical PhonyList
+		assertTrue(list1.equals(list4));	
 	}
 	
-	/*
-	 * Test method size()
+	/**
+	 * Test method size().
 	 */	
 	@Test
 	public void sizeTest() {
@@ -48,8 +65,8 @@ public class TestPhonyListExample2 {
 		assertEquals(5, list.size());
 	}
 
-	/*
-	 * Test method isEmpty() with empty list
+	/**
+	 * Test method isEmpty() with empty list.
 	 */	
 	@Test
 	public void isEmpty_emptyListTest() {
@@ -60,8 +77,8 @@ public class TestPhonyListExample2 {
 		assertTrue(actual.isEmpty());
 	}
 
-	/*
-	 * Test method isEmpty() for the list with one element
+	/**
+	 * Test method isEmpty() for the list with one element.
 	 */
 	@Test
 	public void isEmpty_oneElementTest() {
@@ -72,8 +89,8 @@ public class TestPhonyListExample2 {
 		assertFalse(actual.isEmpty());
 	}
 	
-	/*
-	 * Test method isEmpty() for the list with thousand elements
+	/**
+	 * Test method isEmpty() for the list with thousand elements.
 	 */
 	@Test
 	public void isEmpty_thousandElementsTest() {
@@ -84,32 +101,21 @@ public class TestPhonyListExample2 {
 		assertFalse(actual.isEmpty());
 	}
 	
-	/*
-	 * Test method contains() return false
+	/**
+	 * Test method contains().
 	 */
 	@Test
-	public void containsElementFalseTest() {
+	public void containsTest() {
 		// Creating a call context
 		PhonyList<Integer> list = list(75, 93, 0, 4, -56);
 
 		// Oracle
 		assertFalse(list.contains(3));
-	}
-
-	/*
-	 * Test method contains() return true
-	 */
-	@Test
-	public void containsElementTrueTest() {
-		// Creating a call context
-		PhonyList<Integer> list = list(75, 93, 0, 4, -56);
-
-		// Oracle
 		assertTrue(list.contains(93));
 	}
 	
-	/*
-	 * Test method get()
+	/**
+	 * Test method get().
 	 */
 	@Test
 	public void getTest() {
@@ -120,6 +126,9 @@ public class TestPhonyListExample2 {
 		assertEquals((Integer)46, (Integer)list.get(3));
 	}
 	
+	/**
+	 * Test method set().
+	 */
 	@Test
 	public void setTest() {
 		// Creating a call context
@@ -130,6 +139,9 @@ public class TestPhonyListExample2 {
 		assertEquals((Integer)28, (Integer)list.get(3));
 	}
 	
+	/**
+	 * Test method add().
+	 */
 	@Test
 	public void addTest(){
 		// Creating a call context
@@ -140,39 +152,63 @@ public class TestPhonyListExample2 {
 		assertTrue(list.add(8));
 		assertTrue(list.add(35));
 		assertEquals(list.size(), 3);
-		
 	}
 	
+	/**
+	 * Test method remove(). 
+	 * Adding one element o1 in the list, 
+	 * initialzse second element but is not added in the list, 
+	 * and initialize an empty list
+	 */
 	@Test
 	public void removeTest(){
 		// Creating a call context
-		PhonyList<Integer> list = list();
-		int o= 35;
-		list.add(o);
-		list.remove(o);
+		PhonyList<Integer> list = list(47, 72);
+		//adding one element o1 in the list
+		int o1 = 35;
+		list.add(o1);
+		//Initialize one element but is not added in the list
+		int o2 = 45;
+		//Initialize an empty list
+		PhonyList<Integer> list2 = list();
 		
 		// Oracle
-		assertEquals("Testing remove method", list.size(), 0);	
+		assertTrue(list.remove(o1));
+		assertTrue(list.remove(null));
+		assertFalse(list.remove(o2));
+		assertFalse(list2.remove(null));
 	}
 	
+	/**
+	 * Test method addAll(). 
+	 * Initialize three lists and added three elements, 
+	 * adding this at different locations (end, beginning and middle), 
+	 * verify of the size of the list at each step, 
+	 * Verify of the elements in the list
+	 */
 	@Test
 	public void addAllTest(){
 		// Creating a call context
 		PhonyList<Integer> list1 = list(3, 4, 8, 9, 10, 14);
+		//Initialize a first list and added three elements
 		ArrayList<Integer> list2 = new ArrayList<Integer>();
 		list2.add(5);
 		list2.add(6);
 		list2.add(7);
+		//Initialize a second list and added three elements
 		ArrayList<Integer> list3 = new ArrayList<Integer>();
 		list3.add(0);
 		list3.add(1);
 		list3.add(2);
+		//Initialize a third list and added three elements
 		ArrayList<Integer> list4 = new ArrayList<Integer>();
 		list4.add(11);
 		list4.add(12);
 		list4.add(13);
 					
 		// Oracle
+		//Adding three list at different locations (end, beginning and middle)
+		//Verification of the size of the list at each step
 		assertTrue(list1.addAll(2, list2));	
 		assertEquals(list1.size(), 9);	
 		assertTrue(list1.addAll(0, list3));	
@@ -180,12 +216,18 @@ public class TestPhonyListExample2 {
 		assertTrue(list1.addAll(11, list4));	
 		assertEquals(list1.size(), 15);
 		
+		//Verification of the elements in the list
 		int i = 0;
 		for(i=0;i<list1.size();i++){			
 			assertEquals((Integer)list1.get(i), (Integer)i);
 		}
 	}
 	
+	/**
+	 * Test method removeAll(). 
+	 * Initialize a list and added three elements, 
+	 * removed the list2 in the PhonyList list1 and tested the size
+	 */
 	@Test
 	public void removeAllTest(){
 		// Creating a call context
@@ -198,12 +240,5 @@ public class TestPhonyListExample2 {
 		// Oracle
 		assertTrue(list1.removeAll(list2));	
 		assertEquals(list1.size(), 7);	
-		
-		/*int i = 0;
-		for(i=0;i<list1.size();i++){			
-			assertEquals((Integer)list1.get(i), (Integer)i);
-		}*/
 	}
-	
-	
 }

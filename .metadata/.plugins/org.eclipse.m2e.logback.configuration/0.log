@@ -1,0 +1,296 @@
+2015-09-28 21:13:14,328 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: istic:PhonyList:1 @ /home/nduquesne/ISTIC/Cours/VV/vv-TP11/PhonyList/pom.xml.
+2015-09-28 21:13:14,684 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhonyList/src/main/java
+2015-09-28 21:13:14,685 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhonyList/src/test/java
+2015-09-28 21:13:14,739 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2015-09-28 21:13:17,239 [Worker-7] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/tmp/RemoteBundleDiscoveryStrategy4311010067895862322.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_886548001208589517.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2015-09-28 21:13:17,239 [Worker-7] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2015-09-28 21:13:17,248 [Worker-7] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/tmp/RemoteBundleDiscoveryStrategy4311010067895862322.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_886548001208589517.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive.xml
+2015-09-28 21:13:17,248 [Worker-7] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2015-09-28 21:13:18,463 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 21:13:18,468 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP11/PhonyList/src/main/resources
+2015-09-28 21:13:18,472 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 21:13:18,472 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP11/PhonyList/src/test/resources
+2015-09-28 21:14:36,576 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 21:14:36,595 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-09-28 21:14:36,604 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 21:14:36,605 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:25:27,772 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:25:27,777 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:25:27,779 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:25:27,780 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:26:19,355 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:26:19,356 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:26:19,358 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:26:19,358 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:27:15,371 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:27:15,372 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:27:15,373 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:27:15,373 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:27:16,431 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:27:16,432 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:27:16,434 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:27:16,434 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:27:47,988 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:27:47,988 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:27:47,990 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:27:47,990 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:28:05,381 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:28:05,381 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:28:05,382 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:28:05,383 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:28:53,566 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:28:53,566 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:28:53,567 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:28:53,568 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:28:54,819 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:28:54,820 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:28:54,822 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:28:54,823 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:29:46,454 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:29:46,455 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:29:46,457 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:29:46,457 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:29:47,518 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:29:47,519 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:29:47,520 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:29:47,520 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:30:07,540 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:30:07,541 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:30:07,542 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:30:07,542 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:33:42,453 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:33:42,453 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:33:42,455 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:33:42,455 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:33:43,480 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:33:43,481 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:33:43,482 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:33:43,482 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:45:14,886 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:45:14,887 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:45:14,888 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:45:14,888 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:45:15,935 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:45:15,936 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:45:15,938 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:45:15,938 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:46:50,102 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:46:50,102 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:46:50,105 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:46:50,105 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:46:51,127 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:46:51,128 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:46:51,130 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:46:51,130 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:46:55,849 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:46:55,850 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:46:55,851 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:46:55,852 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:48:44,963 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:48:44,964 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:48:44,966 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:48:44,966 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:48:46,040 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:48:46,041 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:48:46,042 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:48:46,043 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:50:03,684 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:50:03,684 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:50:03,685 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:50:03,686 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:50:04,746 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:50:04,747 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:50:04,749 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:50:04,750 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:55:58,191 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:55:58,191 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:55:58,192 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:55:58,192 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:55:59,300 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:55:59,300 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:55:59,302 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:55:59,302 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:57:22,777 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:57:22,777 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:57:22,779 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:57:22,779 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:57:30,783 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:57:30,783 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:57:30,784 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:57:30,785 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:58:11,038 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:58:11,039 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:58:11,040 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:58:11,040 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 15:58:42,871 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:58:42,871 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 15:58:42,872 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 15:58:42,873 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:00:15,095 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:00:15,095 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:00:15,096 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:00:15,096 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:00:16,149 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:00:16,149 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:00:16,150 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:00:16,151 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:02:40,336 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:02:40,336 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:02:40,337 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:02:40,338 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:02:41,405 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:02:41,405 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:02:41,407 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:02:41,408 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:02:59,632 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:02:59,632 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:02:59,633 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:02:59,633 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:03:47,810 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:03:47,810 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:03:47,811 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:03:47,812 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:06:02,577 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:06:02,577 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:06:02,578 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:06:02,578 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-03 16:06:03,602 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:06:03,603 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-03 16:06:03,604 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-03 16:06:03,604 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:39:44,671 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:39:44,685 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:39:44,687 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:39:44,687 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:40:52,954 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:40:52,955 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:40:52,957 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:40:52,957 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:52:37,483 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:52:37,484 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:52:37,485 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:52:37,485 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:52:43,356 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:52:43,356 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:52:43,357 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:52:43,358 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:54:07,121 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:54:07,121 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:54:07,123 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:54:07,123 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:54:25,668 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:54:25,668 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:54:25,670 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:54:25,670 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:55:41,451 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:55:41,451 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:55:41,453 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:55:41,453 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:55:48,142 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:55:48,143 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:55:48,146 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:55:48,146 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:56:26,273 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:56:26,274 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:56:26,275 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:56:26,276 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 17:59:02,824 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:59:02,824 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 17:59:02,826 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 17:59:02,826 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:01:42,059 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:01:42,060 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:01:42,061 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:01:42,062 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:11:32,066 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:11:32,067 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:11:32,068 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:11:32,069 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:23:51,660 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:23:51,661 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:23:51,662 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:23:51,662 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:24:13,706 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:24:13,706 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:24:13,708 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:24:13,708 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:24:38,513 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:24:38,513 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:24:38,515 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:24:38,515 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:31:34,742 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:31:34,743 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:31:34,745 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:31:34,745 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:32:28,466 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:32:28,467 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:32:28,468 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:32:28,468 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:32:46,276 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:32:46,276 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:32:46,278 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:32:46,278 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:34:27,130 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:34:27,131 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:34:27,132 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:34:27,133 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:37:08,874 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:37:08,874 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:37:08,875 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:37:08,876 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:39:06,233 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:39:06,234 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:39:06,235 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:39:06,235 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:39:22,106 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:39:22,106 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:39:22,107 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:39:22,107 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:40:07,875 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:40:07,876 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:40:07,878 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:40:07,878 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:40:09,158 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:40:09,159 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:40:09,160 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:40:09,161 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:40:10,655 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:40:10,656 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:40:10,658 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:40:10,659 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:45:24,263 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:45:24,264 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:45:24,265 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:45:24,265 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:46:31,284 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:46:31,285 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:46:31,285 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:46:31,285 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:48:28,035 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:48:28,035 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:48:28,036 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:48:28,037 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:49:33,487 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:49:33,488 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:49:33,489 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:49:33,489 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:51:46,240 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:51:46,240 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:51:46,241 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:51:46,241 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 18:58:18,878 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:58:18,879 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 18:58:18,880 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 18:58:18,880 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 19:00:31,141 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 19:00:31,141 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 19:00:31,142 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 19:00:31,142 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 19:01:41,130 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 19:01:41,131 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 19:01:41,131 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 19:01:41,132 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
+2015-10-05 19:10:12,348 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 19:10:12,348 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/main/resources
+2015-10-05 19:10:12,349 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 19:10:12,350 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/nduquesne/ISTIC/Cours/VV/vv-TP1/PhonyList/src/test/resources
