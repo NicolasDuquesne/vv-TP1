@@ -1,0 +1,219 @@
+package system;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+public class TestPhonyListExample2 {
+
+	/*
+	 * Helper method to create lists.
+	 */
+	private PhonyList<Integer> list(Integer... content) {
+		PhonyList<Integer> list = new PhonyList<>();
+		for (Integer i : content)
+			list.add(i);
+		return list;
+	}
+
+	/*
+	 * Helper method to create a big list [1,2,3,...,10000]
+	 */
+	private PhonyList<Integer> thousandElementsList() {
+		PhonyList<Integer> thousandElementsList = new PhonyList<>();
+		for (int i = 1; i <= 10000; i++) {
+			thousandElementsList.add(i);
+		}
+		return thousandElementsList;
+	}
+	
+	@Test
+	public void equalsTest(){
+		PhonyList<Integer> listEmpty1 = list();
+		String str = new String();
+		PhonyList<Integer> list1 = list(44, 57, 26);
+		PhonyList<Integer> list2 = list(32, 89, 1, 6);
+		PhonyList<Integer> list3 = list(45, 57, 26);
+		PhonyList<Integer> list4 = list(44, 57, 26);
+		
+		assertTrue(listEmpty1.equals(listEmpty1));
+		assertFalse(listEmpty1.equals(str));
+		assertFalse(list1.equals(list2));
+		assertFalse(list1.equals(list3));
+		assertTrue(list1.equals(list4));	
+	}
+	
+	/*
+	 * Test method size()
+	 */	
+	@Test
+	public void sizeTest() {
+		// Creating a call context
+		PhonyList<Integer> list = list(75, 93, 0, 4, -56);
+
+		// Oracle
+		assertEquals(5, list.size());
+	}
+
+	/*
+	 * Test method isEmpty() with empty list
+	 */	
+	@Test
+	public void isEmpty_emptyListTest() {
+		// Creating a call context
+		PhonyList<Integer> actual = list();
+
+		// Oracle
+		assertTrue(actual.isEmpty());
+	}
+
+	/*
+	 * Test method isEmpty() for the list with one element
+	 */
+	@Test
+	public void isEmpty_oneElementTest() {
+		// Creating a call context
+		PhonyList<Integer> actual = list(1);;
+
+		// Oracle
+		assertFalse(actual.isEmpty());
+	}
+	
+	/*
+	 * Test method isEmpty() for the list with thousand elements
+	 */
+	@Test
+	public void isEmpty_thousandElementsTest() {
+		// Creating a call context
+		PhonyList<Integer> actual = thousandElementsList();
+
+		// Oracle
+		assertFalse(actual.isEmpty());
+	}
+	
+	/*
+	 * Test method contains() return false
+	 */
+	@Test
+	public void containsElementFalseTest() {
+		// Creating a call context
+		PhonyList<Integer> list = list(75, 93, 0, 4, -56);
+
+		// Oracle
+		assertFalse(list.contains(3));
+	}
+
+	/*
+	 * Test method contains() return true
+	 */
+	@Test
+	public void containsElementTrueTest() {
+		// Creating a call context
+		PhonyList<Integer> list = list(75, 93, 0, 4, -56);
+
+		// Oracle
+		assertTrue(list.contains(93));
+	}
+	
+	/*
+	 * Test method get()
+	 */
+	@Test
+	public void getTest() {
+		// Creating a call context
+		PhonyList<Integer> list = list(75, 93, 0, 46, -56);
+
+		// Oracle
+		assertEquals((Integer)46, (Integer)list.get(3));
+	}
+	
+	@Test
+	public void setTest() {
+		// Creating a call context
+		PhonyList<Integer> list = list(75, 93, 0, 46, -56);
+		
+		// Oracle
+		assertEquals((Integer)46, (Integer)list.set(3, 28));
+		assertEquals((Integer)28, (Integer)list.get(3));
+	}
+	
+	@Test
+	public void addTest(){
+		// Creating a call context
+		PhonyList<Integer> list = list();
+		
+		// Oracle
+		assertTrue(list.add(4));
+		assertTrue(list.add(8));
+		assertTrue(list.add(35));
+		assertEquals(list.size(), 3);
+		
+	}
+	
+	@Test
+	public void removeTest(){
+		// Creating a call context
+		PhonyList<Integer> list = list();
+		int o1= 35;
+		list.add(o1);
+		int o2 = 45;
+		
+		// Oracle
+		assertTrue(list.remove(o1));
+		assertTrue(list.remove(null));
+		assertFalse(list.remove(o2));
+	}
+	
+	@Test
+	public void addAllTest(){
+		// Creating a call context
+		PhonyList<Integer> list1 = list(3, 4, 8, 9, 10, 14);
+		ArrayList<Integer> list2 = new ArrayList<Integer>();
+		list2.add(5);
+		list2.add(6);
+		list2.add(7);
+		ArrayList<Integer> list3 = new ArrayList<Integer>();
+		list3.add(0);
+		list3.add(1);
+		list3.add(2);
+		ArrayList<Integer> list4 = new ArrayList<Integer>();
+		list4.add(11);
+		list4.add(12);
+		list4.add(13);
+					
+		// Oracle
+		assertTrue(list1.addAll(2, list2));	
+		assertEquals(list1.size(), 9);	
+		assertTrue(list1.addAll(0, list3));	
+		assertEquals(list1.size(), 12);	
+		assertTrue(list1.addAll(11, list4));	
+		assertEquals(list1.size(), 15);
+		
+		int i = 0;
+		for(i=0;i<list1.size();i++){			
+			assertEquals((Integer)list1.get(i), (Integer)i);
+		}
+	}
+	
+	@Test
+	public void removeAllTest(){
+		// Creating a call context
+		PhonyList<Integer> list1 = list(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+		ArrayList<Integer> list2 = new ArrayList<Integer>();
+		list2.add(5);
+		list2.add(6);
+		list2.add(7);
+							
+		// Oracle
+		assertTrue(list1.removeAll(list2));	
+		assertEquals(list1.size(), 7);	
+		
+		/*int i = 0;
+		for(i=0;i<list1.size();i++){			
+			assertEquals((Integer)list1.get(i), (Integer)i);
+		}*/
+	}
+	
+	
+}
